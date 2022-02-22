@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2022-02-13" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.11" locale="fr">
+    <description/>
+    <view zooming-state="default:0" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="167" order="0"/>
+        <field id="tpd4" name="Date de début" width="65" order="1"/>
+        <field id="tpd5" name="Date de fin" width="64" order="2"/>
+        <option id="color.recent">
+            <![CDATA[#cc00cc #009999 #0033ff #f4f4f4 #00cc00 #33ff33 #ff3333]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Rédaction Contexte Java" color="#0033ff" meeting="false" start="2022-02-22" duration="1" complete="0" thirdDate="2022-02-22" thirdDate-constraint="0" expand="true">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+            <depend id="81" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="3" name="Product Backlogs (estimation du temps)" color="#0033ff" meeting="false" start="2022-02-22" duration="1" complete="0" thirdDate="2022-02-22" thirdDate-constraint="0" expand="true">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+            <depend id="81" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="4" name="Maquette de l'interface graphique de l'application" color="#cc00cc" meeting="false" start="2022-02-23" duration="1" complete="0" thirdDate="2022-02-23" thirdDate-constraint="1" expand="true">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+            <depend id="6" type="2" difference="0" hardness="Strong"/>
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="81" name="Envoie du dossier de contexte" color="#00cc00" meeting="false" start="2022-02-23" duration="1" complete="0" thirdDate="2022-02-08" thirdDate-constraint="0" expand="true"/>
+        <task id="5" name="installation du plugin JavaFX sur eclipse" color="#cc00cc" meeting="false" start="2022-02-24" duration="1" complete="0" thirdDate="2022-02-22" thirdDate-constraint="0" expand="true">
+            <depend id="6" type="2" difference="0" hardness="Strong"/>
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="6" name="Application &quot;Hello World&quot;" color="#cc00cc" meeting="false" start="2022-02-25" duration="1" complete="0" thirdDate="2022-02-22" thirdDate-constraint="0" expand="true">
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="7" name="Codage de l'application en fonction des besoins requis" color="#cc00cc" meeting="false" start="2022-02-25" duration="1" complete="0" thirdDate="2022-02-22" thirdDate-constraint="0" expand="true">
+            <depend id="8" type="2" difference="0" hardness="Strong"/>
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="8" name="Versionning à chaque changements" color="#009999" meeting="false" start="2022-02-26" duration="1" complete="0" thirdDate="2022-02-22" thirdDate-constraint="0" expand="true">
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="9" name="Envoi du dossier" color="#00cc00" meeting="false" start="2022-02-27" duration="1" complete="0" thirdDate="2022-02-22" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
